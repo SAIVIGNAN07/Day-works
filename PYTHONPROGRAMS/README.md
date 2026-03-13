@@ -166,12 +166,12 @@ print(revlet("a2$mrita"))
 ### Sample Output
 
 ```
-a2$mrita  →  atirm2$a
+a2$mrita  →  at$irm2a
 ```
 
 ```python
 print(revlet("a2$mrita"))
-# Output: atirm$2a
+# Output: at$irm2a
 
 print(revlet("ab$cd"))
 # Output: dc$ba
