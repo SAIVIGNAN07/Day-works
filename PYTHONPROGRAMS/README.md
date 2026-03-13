@@ -39,7 +39,7 @@ enter the target: 3
 [(1, 2), (2, 1), (5, 6), (6, 5)]
 ```
 
-> With input list `[1, 2, 3, 4, 5, 6]` and target `3`:
+> With input list `[1, 2, 3, 4, 5, 6]` and target `4`:
 ```
 enter the target: 4
 [(1, 5), (2, 6), (5, 1), (6, 2)]
