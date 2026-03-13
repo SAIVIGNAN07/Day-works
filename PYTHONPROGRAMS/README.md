@@ -148,18 +148,25 @@ Reverses only the alphanumeric characters in a string while keeping non-alphanum
 
 ```python
 def revlet(text):
-    letters = []
-    for ch in text:
-        if ch.isalnum():
-            letters.append(ch)
+    text = list(text)
+    
+    left = 0
+    right = len(text) - 1
 
-    result = ""
-    for ch in text:
-        if ch.isalnum():
-            result += letters.pop()
+    while left < right:
+
+        if not text[left].isalnum():
+            left += 1
+
+        elif not text[right].isalnum():
+            right -= 1
+
         else:
-            result += ch
-    return result
+            text[left], text[right] = text[right], text[left]
+            left += 1
+            right -= 1
+
+    return "".join(text)
 
 print(revlet("a2$mrita"))
 ```
