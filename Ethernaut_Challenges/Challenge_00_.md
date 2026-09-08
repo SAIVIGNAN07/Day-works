@@ -41,7 +41,7 @@ Initially, I thought there might be a vulnerability or a hidden flag directly in
 
 ---
 
-## 🚀 Approach
+##  Approach
 
 ### Step 1 — Call `info()`
 
