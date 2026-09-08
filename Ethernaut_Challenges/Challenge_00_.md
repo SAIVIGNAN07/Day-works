@@ -34,7 +34,6 @@ First, I inspected the deployed contract and its ABI.
 I observed that:
 
 * The contract contained a `password` property.
-* The contract was **not payable**.
 * The `info()` function appeared to provide clues about which functions to call next.
 
 Initially, I thought there might be a vulnerability or a hidden flag directly inside the contract. However, after going through the contract functions, I realized that the challenge was mainly about **following the sequence of clues provided by the contract**.
