@@ -5,7 +5,7 @@
 
 ##  Objective
 
-The objective of this challenge was to interact with the deployed smart contract and follow the provided clues to eventually call the `authenticate()` function with the correct password.
+The objective of this challenge was to interact with the deployed smart contract and follow the provided clues.
 
 ---
 
@@ -206,42 +206,3 @@ The authentication was successful and the challenge was completed.
 ##  Challenge Completed
 
 The challenge was successfully completed by following the chain of clues provided by the smart contract.
-
-### Complete Flow
-
-```text
-info()
-   ↓
-info1()
-   ↓
-info2("hello")
-   ↓
-infoNum() → 42
-   ↓
-info42()
-   ↓
-theMethodName() → method7123949
-   ↓
-method7123949()
-   ↓
-password() → ethernaut0
-   ↓
-authenticate("ethernaut0")
-   ↓
- Challenge Completed
-```
-
----
-
-##  What I Learned
-
-From this challenge, I learned:
-
-* How to interact with a deployed Solidity contract.
-* How to inspect and call contract functions.
-* How contract properties can be accessed through automatically generated getters.
-* How to follow information returned by contract functions.
-* How the Ethernaut environment can be used to interact with smart contracts.
-* The basic workflow of solving an Ethernaut challenge.
-
-Although this was a **Difficulty 0** challenge, it provided a good introduction to interacting with smart contracts before moving on to more security-focused challenges.
